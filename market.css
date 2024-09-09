@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/*styling the hero page*/
+.hero-img {
+    background: url(Img/market-img.jpg);
+}
+.hero-text {
+    text-align: center;
+    border: 2px solid #343a40;
+    background: #343a40;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*styling of the crypto card*/
+.coinmarketcap-currency-widget {
+    color: #ffff;
+    margin: 5px;
+}
+/*styling the buy and sell coin */
+.buy-coin-text {
+    text-align: center;
+    font-weight: bold;
+}
+#btn1 {
+    padding: 10px;
+    margin: 5px;
+    color: #343a40;
+    background: #ffffff;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+#btn1:hover {
+    background: none;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+}
+@media (min-width:769px) {
+    .buy-crypto-h2 {
+        font-size: 4rem;
+    }
+}

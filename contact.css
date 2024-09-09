@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/*styling the contact hero page */
+@media (min-width: 769px) {
+    .hero-text {
+        font-size: 3rem;
+    }
+    .hero-p-text {
+        font-size: 1.5rem;
+    }
+    .buy-crypto-h2 {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 768px) {
+    #investmentForm {
+        margin-bottom: 10px;
+    }
+}
+button {
+    border: 2px solid #ffff;
+    background: #ffff;
+    padding: 10px;
+    font-weight: bold;
+}
+button a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+}
+button:hover {
+    background: none;
+    transition: 1s ease-in-out;
+    color: #ffff;
+}
+button a:hover {
+    color: #ffff;
+}
+.hero-img {
+    border: 2px solid #ffff;
+}
+/*styling the contact form */
+.contact-text {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.contact-p-text {
+    text-align: center;
+}
+#investmentForm {
+    border: 2px solid #ffff;
+    background: darkgrey;
+}
+label a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+}
+label a:hover {
+    color: #ffff;
+}
+/*styling the buy and sell coin */
+.buy-coin-text {
+    text-align: center;
+    font-weight: bold;
+}
+#btn1 {
+    font-weight: bold;
+}

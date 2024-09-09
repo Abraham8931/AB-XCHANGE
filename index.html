@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
+    <title>AB-XCHANGE</title>
+</head>
+<body class="bg-dark">
+    <div id="navbar-container"></div>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <!--start of the index hero-->
+        <div class="container">
+            <div class="row align-items-center" style="height: 40vh;">
+                <div class="col-md-6 text-center hero">
+                    <h1 class="hero-text">Cryptocurrency Market</h1>
+                    <p class="hero-paragraph-text">Be Ahead! Get all the latest cryptocurrency market prices in one place. Check prices in all currencies.</p>
+                    <div class="hero-btn">
+                        <a href="buy-crypto.html"><button id="btn1" type="submit">Buy & Sell Crypto <i class="fa-solid fa-arrow-right"></i></button></a>
+                        <a href="market.html"><button id="btn2" type="submit">Coin Market <i class="fa-solid fa-arrow-right"></i></button></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="Img/hero-img.png" alt="Cryto Exchange" class="img-fluid hero-img">
+                </div>
+            </div>
+            <hr style="border-top: 2px solid #ffff;">
+        </div>
+    </div>
+    <!--start of the crypto-price-->
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="cryptohopper-web-widget" data-id="2" data-numcoins="50" data-realtime="on"></div>
+            <br>
+            <br>
+            <div class="cryptohopper-web-widget" data-id="9" data-theme="dark" data-coins="bitcoin,ethereum,tether,cardano,bitcoin-cash-sv,bitcoin-cash,litecoin" data-multi_currencies="AUD,BTC,EUR,GBP,USD" data-realtime="on"></div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!--crypto market news-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="cryptohopper-web-widget" data-id="4" data-coins="null" data-numcoins="10" data-theme="dark" data-realtime="on"></div>
+                </div>
+                <br>
+                <br>
+                <div class="col-md-6 text-white">
+                    <h5 class="crypto-news-text">Cryptocurrency News</h5>
+                    <br>
+                    <br>
+                    <div class="cryptohopper-web-widget" data-id="5" data-news_count="5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!-- start of crytocurrency converter-->
+    <section>
+        
+        <div class="container">
+            <h4 class="crypto-converter-text text-white">Cryptocurrency Converter</h4>
+            <p class="cryptoconverter-p-text text-white">Crypto exchange rate calculator helps you <i>convert</i> prices online <br> between two currencies in real-time.</p>
+            <br>
+            <br>
+            <div class="cryptohopper-web-widget" data-id="6" data-text_color="#f9f7f7" data-background_color="#0e0d0d" data-numcoins="1000"></div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!--enter the coin market-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <gecko-coin-compare-chart-widget locale="en" dark-mode="true" outlined="true" coin-ids="" initial-currency="usd"></gecko-coin-compare-chart-widget>
+                    <br>
+                    <a href="market.html" class=""><button class="coin-market-btn" type="submit">Enter the Coin Market <i class="fa fa-arrow-right"></i></button></a>
+                </div>
+                <div class="col-md-6">
+                    <img src="Img/allcoin.png" alt="" class="img-fluid">
+                </div>
+                <br>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!--start of buy & sell crypto-->
+    <section>
+        <div class="container buy-coin-text">
+            <h6 class="buy-crypto text-white">Ready to stay ahead of your competition?</h6>
+            <h2 class="buy-crypto-h2 text-white">Join millions of people around <br> the world buying and <br>selling cryptocurrency.</h2>
+            <a href="buy-crypto.html"><button id="btn1" type="submit">Buy & Sell Crypto <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+    </section>
+    <br>
+    <br>
+    <div id="footer-container"></div>
+    <script src="https://widgets.coingecko.com/gecko-coin-compare-chart-widget.js"></script>
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script src="fontawesome-free-6.6.0-web/js/all.min.js"></script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+</body>
+</html>

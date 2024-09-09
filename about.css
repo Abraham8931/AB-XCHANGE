@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/*styling the about hero page */
+@media (min-width: 769px) {
+    .hero-text {
+        font-size: 3rem;
+    }
+    .hero-p-text {
+        font-size: 1.5rem;
+    }
+    .team-img {
+        margin-top: 150px;
+    }
+    .social-icon {
+        float: left;
+        margin-top: 20px;
+    }
+    .team-text{
+        font-size: 3rem;
+    }
+    .team-p-text {
+        font-size: 1.5rem;
+    }
+    .buy-crypto-h2 {
+        font-size: 4rem;
+    }
+}
+button {
+    border: 2px solid #ffff;
+    background: #ffff;
+    padding: 10px;
+}
+button a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+}
+button:hover {
+    background: none;
+    transition: 1s ease-in-out;
+    color: #ffff;
+}
+button a:hover {
+    color: #ffff;
+}
+.hero-img {
+    border: 2px solid #ffff;
+}
+/*styling the our team section*/
+.team-text{
+    text-align: center;
+}
+.team-p-text {
+    text-align: center;
+}
+.card {
+    margin: 10px;
+}
+.card-img-top {
+    height: 150px;
+    object-fit: contain;
+    
+}
+/*styling the our service section */
+.card-title {
+    font-weight: bold;
+}
+.fa-radio {
+    font-size: 30px;
+    padding: 20px;
+}
+/*styling the buy and sell coin */
+.buy-coin-text {
+    text-align: center;
+    font-weight: bold;
+}
+#btn1 {
+    font-weight: bold;
+}

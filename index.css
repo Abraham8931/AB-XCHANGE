@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/*Styling of the hero page */
+.hero {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: hero 1s forwards;  
+}
+@keyframes hero {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.hero-text {
+    text-align: justify;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.hero-paragraph-text {
+    text-align: justify;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+/*styling the hero btn*/
+.hero-btn {
+    display: flex;
+    justify-content: start;
+    flex-grow: 1; 
+}
+#btn1 {
+    padding: 10px;
+    margin: 5px;
+    color: #343a40;
+    background: #ffffff;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+#btn2 {
+    padding: 10px;
+    margin: 5px;
+    color: #ffffff;
+    background: none;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+#btn1:hover {
+    background: none;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+}
+#btn2:hover {
+    background: #ffffff;
+    transition: 1s ease-in-out;
+    color: #343a40;
+}
+/*styling for mobile device*/
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+    .hero-paragraph-text {
+        font-size: 1rem;
+    }
+    .hero-img {
+        display: none;
+    }
+}
+/*styling of the cryptocurrency-news*/
+.crypto-news-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*styling of the crypto converter*/
+.crypto-converter-text {
+    font-size: 3rem;
+    text-align: center;
+}
+.cryptoconverter-p-text {
+    font-size: 1rem;
+    text-align: center;
+}
+/*styling of the coin market*/
+.coin-market-btn {
+    padding: 10px;
+    margin: 5px;
+    color: #343a40;
+    background: #ffffff;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+.coin-market-btn:hover{
+    color: #ffffff;
+    background: none;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    transition: 1s ease-in-out;
+}
+/*styling the buy and sell coin */
+.buy-coin-text {
+    text-align: center;
+    font-weight: bold;
+}
+@media (min-width: 769px) {
+    .buy-crypto-h2 {
+        font-size: 4rem;
+    }
+}
+

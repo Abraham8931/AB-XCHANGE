@@ -1,0 +1,31 @@
+/*styling of the footer*/
+h4 {
+    font-weight: bold;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #bfbfbf;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin-left: -30px;
+}
+/*styling for desktop*/
+@media (min-width: 769px) {
+    span i {
+        float: inline-end;
+        margin-top: -40px;
+        padding: 10px;
+        color: #bfbfbf;
+    }
+}
+/*styling for medium screen*/
+@media (max-width: 769px) {
+    span i {
+        padding: 10px;
+        color: #bfbfbf;
+        margin-left: 10px;
+    }
+}
